@@ -1,3 +1,7 @@
+
+<head>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
 ## 指数分布，泊松分布和伽马分布
 
 - 泊松分布参数是单位时间（或单位面积）随机事件发生的平均次数。泊松分布适用于描述单位时间内的随机事件数。
