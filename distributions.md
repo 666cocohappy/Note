@@ -24,7 +24,8 @@ $$
 p(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}, \quad k \in[0, n]
 $$
 
--如果变量X服从Categorical分布，其中满足 
+-如果变量X服从Categorical分布，其中满足
+
 $$
 \sum_{j=1}^{k} \alpha_{j}=1
 $$
