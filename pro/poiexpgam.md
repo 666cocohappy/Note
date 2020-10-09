@@ -24,3 +24,5 @@ $$
 alpha代表上述的n, 当alpha=1时，就变成了指数分布：
 
 伽玛分布=指数分布＊泊松分布
+
+[返回首页](https://666cocohappy.github.io/paper.io/)
