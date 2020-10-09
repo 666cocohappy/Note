@@ -17,7 +17,7 @@ $$
 p(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}, \quad k \in[0, n]
 $$
 
--如果变量X服从Categorical分布
+- 如果变量X服从Categorical分布
 $$
 Cat( \alpha_{1}, \alpha_{2} ... \alpha_{k})
 $$
