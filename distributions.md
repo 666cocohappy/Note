@@ -11,17 +11,12 @@
 </head>
 
 先给出有着紧密联系的四个分布，分别是：**伯努利分布**（Bernoulli Distribution）、**二项分布**（Binomial Distribution）、**类别分布**（Categorical Distribution）和**多项分布**（Multinomial Distribution）。
-_aaaa_
+
+- 如果变量 [公式] 服从伯努利分布 [公式] ，那么 [公式] 只有两种取值，这里不妨记为 [公式] ，有：
+$$
+p(X=0)=p p(X=1)=1-p
+$$
 
 $$
 p(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}, \quad k \in[0, n]
 $$
-
-
-```markdown
-$$
-p(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}, \quad k \in[0, n]
-$$
-
-
-```
