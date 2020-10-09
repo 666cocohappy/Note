@@ -11,5 +11,10 @@
 </head>
 
 先给出有着紧密联系的四个分布，分别是：**伯努利分布**（Bernoulli Distribution）、**二项分布**（Binomial Distribution）、**类别分布**（Categorical Distribution）和**多项分布**（Multinomial Distribution）。
+_aaaa_
+
+$$
+p(X=k)=C_{n}^{k} p^{k}(1-p)^{n-k}, \quad k \in[0, n]
+$$
 
 
