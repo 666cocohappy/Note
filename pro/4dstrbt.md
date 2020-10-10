@@ -38,4 +38,4 @@ $$
 - 将 n 个小球放入 k 个桶，记变量 [公式] 为 k 个桶内的小球个数，是一个向量，并且向量元素的和为 n，所以是服从多项分布。
 可以看出多项分布是其余三个分布的广义形式。将 n 设置为 1 即得到Categorical分布；将 k 设置为 2 即得到二项分布；将 n 设置为 1, k 设置为 2 得到伯努利分布。
 
-[返回首页](https://666cocohappy.github.io/paper.io/)
+[返回首页](https://666cocohappy.github.io/note/)
