@@ -11,4 +11,5 @@
 
 ## 算法
 - [01背包问题](https://666cocohappy.github.io/note/alg/zopack)
+- [EM](https://666cocohappy.github.io/note/alg/em)
 
