@@ -1,10 +1,19 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-## 伯努利分布和Beta分布
+##二项和Beta分布
 对于伯努利分布：
 
 $$
 \operatorname{Bern}(x \mid \mu)=\mu^{x}(1-\mu)^{1-x}
+$$
+
+二项分布为多重伯努利分布
+
+$$
+\operatorname{Bin}(m \mid N, \mu)=\left(\begin{array}{l}
+N \\
+m
+\end{array}\right) \mu^{m}(1-\mu)^{N-m} \\
 $$
 
 给定集合D=（x1，x2，。。。），其似然表示为
