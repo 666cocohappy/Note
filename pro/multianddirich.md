@@ -9,6 +9,7 @@ p(\mathbf{x} \mid \mu)=\prod_{k=1}^{K} \mu_{k}^{x_{k}} \\
 $$
 
 取之为1-k的变量发生mk次概率为
+
 $$
 \text { Mult }\left(m_{1}, m_{2}, \ldots, m_{K} \mid \mu, N\right)=\left(\begin{array}{c}
 N \\
