@@ -5,7 +5,7 @@
 $$
 \operatorname{Bern}(x \mid \mu)=\mu^{x}(1-\mu)^{1-x}
 $$
-
+给定集合D=（x1，x2，。。。），其似然表示为
 $$
 p(\mathcal{D} \mid \mu)=\prod_{n=1}^{N} p\left(x_{n} \mid \mu\right)=\prod_{n=1}^{N} \mu^{x_{n}}(1-\mu)^{1-x_{n}}
 $$
