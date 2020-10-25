@@ -12,5 +12,5 @@
 ## 算法
 - [01背包问题](https://666cocohappy.github.io/note/alg/zopack)
 - [EM](https://666cocohappy.github.io/note/alg/em)
-- [张量分解_1:矩阵分解](https://666cocohappy.github.io/note/alg/tensor_1)
-
+- [张量分解_1:矩阵分解(matrix decomposition/factorization)](https://666cocohappy.github.io/note/alg/tensor_1)
+- [张量分解_2:隐因子模型（latent factor model, LFM）](https://666cocohappy.github.io/note/alg/tensor_2)
