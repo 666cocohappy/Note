@@ -42,13 +42,24 @@ $$
 \end{aligned}
 $$
 
-这里，可以将两个偏导数分别简写为 $\frac{\partial J}{\partial u_{i q}}=-\sum_{j:(i, j) \in S} e_{i j} v_{j q}$ 和 $\frac{\partial J}{\partial v_{j q}}=-\sum_{i:(i, j) \in S} e_{i j} u_{i q},$ 其中,
-$i \in\{1,2, \ldots, m\}, \quad j \in\{1,2, \ldots, n\}, \quad q \in\{1,2, \ldots, k\}$
-根据梯度下降（gradient descent）方法, $u_{i q}$ 和 $v_{j q}$ 在每次迭代过程中的更新公式为
+这里，可以将两个偏导数分别简写为 
+
+$$
+\frac{\partial J}{\partial u_{i q}}=-\sum_{j:(i, j) \in S} e_{i j} v_{j q} \\
+\frac{\partial J}{\partial v_{j q}}=-\sum_{i:(i, j) \in S} e_{i j} u_{i q}
+$$
+
+其中,
+i为1～m，j为1～n，q为1～k
+根据梯度下降（gradient descent）方法, u和v在每次迭代过程中的更新公式为
+
 $$
 u_{i q} \Leftarrow u_{i q}+\alpha \sum_{j:(i, j) \in S} e_{i j} v_{j q} ; v_{j q} \Leftarrow v_{j q}+\alpha \sum_{i:(i, j) \in S} e_{i j} u_{i q}
 $$
-这里的 $\alpha>0$ 表示梯度下降的步长，又称为学习率 (learning rate) ，另外，更新公式中的求和项 下标 $j:(i, j) \in S$ 和 $i:(i, j) \in S$ 分别表示向量 $R(i,:)$ 和 $R(:, j)$ 上所有非零元素的位置索引构成的 集合。
+
+这里的 alpha 表示梯度下降的步长，又称为学习率 (learning rate) ，另外，更新公式中的求和项 下标 i，j分别表示向量R上所有非零元素的位置索引构成的集合。
+
+
 
 
 [返回首页](https://666cocohappy.github.io/note/)
