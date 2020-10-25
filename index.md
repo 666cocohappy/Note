@@ -5,6 +5,7 @@
 - [泊松、指数、伽马分布](https://666cocohappy.github.io/note/pro/poiexpgam)
 - [共轭先验](https://666cocohappy.github.io/note/pro/conjpr)
 - [伯努利分布和Beta分布](https://666cocohappy.github.io/note/pro/biandbeta)
+
 ## 统计
 
 ## 论文
