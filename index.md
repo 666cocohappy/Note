@@ -10,6 +10,7 @@
 ## 统计
 
 ## 论文
+- [Note-Item-Based Collaborative Filtering Recommendation Algorithms](https://666cocohappy.github.io/note/paper/cf)
 
 ## 算法
 - [01背包问题](https://666cocohappy.github.io/note/alg/zopack)
