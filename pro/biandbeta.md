@@ -1,6 +1,6 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-##二项和Beta分布
+## 二项和Beta分布
 对于伯努利分布：
 
 $$
