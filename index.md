@@ -11,6 +11,7 @@
 
 ## 论文
 - [Note-Item-Based Collaborative Filtering Recommendation Algorithms](https://666cocohappy.github.io/note/paper/cf)
+- [概率主题模型：潜在狄立克雷分配（Probabilistic Topic Models：Latent Dirichlet Allocation](https://666cocohappy.github.io/note/paper/ptm)
 
 ## 算法
 - [01背包问题](https://666cocohappy.github.io/note/alg/zopack)
