@@ -18,6 +18,7 @@
 ## 评估模型
 - 四种推荐技术
 - 五种上下文信息
+
 ### 矩阵分解模型
 与矩阵分解类似，在共现矩阵看作用户向量与POI向量（而非Item向量）乘积的结果。目标方程为：
 
@@ -76,8 +77,7 @@ MGMPFM是一个融合模型，由PFM的输出和地理模型Multi-center Gaussia
 （2）推荐：根据区域R计算POI的分布，再计算POI与用户共现矩阵的分布
 
 $$
-P_{i j}=\\
-&P\left(C_{i j}\right) \cdot P\left(l_{j}\left|R_{i}\right|\right)
+P_{i j}=\&P\left(C_{i j}\right) \cdot P\left(l_{j}\left|R_{i}\right|\right)
 $$
 
 2. GeoPFM
@@ -91,6 +91,8 @@ LFBCA使用图链接用户和关系。在图中用户喜好和社交影响展现
 ### 混合模型（Hybrid Models）
 混合模型综合了不同的方法，方法分别对用户偏好或者一种上下文信息建模。
 
+1. USG
+同步对用户偏好，社交影响和地理影响建模，然后推荐POI
 
 
 
