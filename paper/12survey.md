@@ -37,8 +37,11 @@ $$
 基于加权矩阵分解，背后的原理：
 - 在相邻POIs中用户行为相似（本地级别）
 - 在相同地区用户行为相似（地区级别）
+除了考虑用户与POI的关系，也要考虑与POI邻居们的关系，POI关系前的参数alpha即是权重
 
-
+$$
+\hat{C}_{i j}=\alpha \mathbf{u}_{i} \mathbf{l}_{j}^{\top}+(1-\alpha) \frac{1}{Z\left(l_{j}\right)} \sum_{l_{l_{k} \in \mathcal{N}\left(l_{i}\right)}} \operatorname{Sim}\left(l_{j}, l_{k}\right) \mathbf{u}_{i} \mathbf{l}_{k}^{\top}
+$$
 
 
 
