@@ -67,6 +67,20 @@ ASMF是一个两步POI推荐框架
 （1）社交影响：每个用户在每个潜在地点有三种朋友，社交朋友、地点朋友、邻居朋友
 （2）分类影响：计算推荐分数时，ASMF根据用户对某地区隶属分类的喜爱程度作为权重计算目标函数$$\hat{C}_{i j}=\left(Q_{i c_{j}}+\epsilon\right) \mathbf{u}_{i}\mathbf{l}_{j}^{\top}$$(3）地理影响：将距离加入到目标函数计算中$$\hat{C}_{i j} \propto p_{i j}^{G} \times \hat{C}_{i j}$$
 
+###泊松因子模型（Poisson Factor Models）
+Poisson Factor Model (PFM)是一个概率模型，将用户和POI相乘的共现矩阵以泊松分布的形式展现。
+
+1. MGMPFM
+MGMPFM是一个融合模型，由PFM的输出和地理模型Multi-center Gaussian Model (MGM)
+（1）地理影响：根据用户活动区域（学校，家），MGM学习到**多重高斯分布**
+（2）推荐：根据区域R计算POI的分布，再计算POI与用户共现矩阵的分布
+
+$$
+P_{i j}=\\
+&P\left(C_{i j}\right) \cdot P\left(l_{j}\left|R_{i}\right|\right)
+$$
+
+2. GeoPFM
 
 
 [返回首页](https://666cocohappy.github.io/note/)
