@@ -65,7 +65,7 @@ ASMF是一个两步POI推荐框架
 - 学习用户潜在朋友
 - 将潜在地点包含到加权矩阵分解中解决冷启动问题
 （1）社交影响：每个用户在每个潜在地点有三种朋友，社交朋友、地点朋友、邻居朋友
-（2）分类影响：计算推荐分数时，ASMF根据用户对某地区隶属分类的喜爱程度作为权重计算目标函数$$\hat{C}_{i j}=\mid\left(Q_{i c_{j}}+\epsilon\right) \mathbf{u}_{i}\mathbf{l}_{j}^{\top}$$(3）地理影响：将距离加入到目标函数计算中$$\hat{C}_{i j} \propto p_{i j}^{G} \times \hat{C}_{i j}$$
+（2）分类影响：计算推荐分数时，ASMF根据用户对某地区隶属分类的喜爱程度作为权重计算目标函数$$\hat{C}_{i j}=\left(Q_{i c_{j}}+\epsilon\right) \mathbf{u}_{i}\mathbf{l}_{j}^{\top}$$(3）地理影响：将距离加入到目标函数计算中$$\hat{C}_{i j} \propto p_{i j}^{G} \times \hat{C}_{i j}$$
 
 
 
