@@ -67,7 +67,7 @@ ASMF是一个两步POI推荐框架
 （1）社交影响：每个用户在每个潜在地点有三种朋友，社交朋友、地点朋友、邻居朋友
 （2）分类影响：计算推荐分数时，ASMF根据用户对某地区隶属分类的喜爱程度作为权重计算目标函数$$\hat{C}_{i j}=\left(Q_{i c_{j}}+\epsilon\right) \mathbf{u}_{i}\mathbf{l}_{j}^{\top}$$(3）地理影响：将距离加入到目标函数计算中$$\hat{C}_{i j} \propto p_{i j}^{G} \times \hat{C}_{i j}$$
 
-###泊松因子模型（Poisson Factor Models）
+### 泊松因子模型（Poisson Factor Models）
 Poisson Factor Model (PFM)是一个概率模型，将用户和POI相乘的共现矩阵以泊松分布的形式展现。
 
 1. MGMPFM
@@ -81,6 +81,17 @@ P_{i j}=\\
 $$
 
 2. GeoPFM
+- 同时考虑用户的地理偏好和兴趣偏好
+- 潜在地理位置用二维高斯分布被整合到PFM模型中
+- 用户则表现为一个位置中的多项分布
+
+### 基于链接的模型
+LFBCA使用图链接用户和关系。在图中用户喜好和社交影响展现为不同的边。
+
+### 混合模型（Hybrid Models）
+混合模型综合了不同的方法，方法分别对用户偏好或者一种上下文信息建模。
+
+
 
 
 [返回首页](https://666cocohappy.github.io/note/)
