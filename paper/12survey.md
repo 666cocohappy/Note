@@ -32,6 +32,7 @@ $$
 $$
 \sum_{t=1}^{T} \sum_{i=1}^{m} \psi_{i}(t, t-1)\left\|\mathbf{u}_{i}^{(t)}-\mathbf{u}_{i}^{(t-1)}\right\|_{2}^{2}
 $$
+
 2. IRenMF
 基于加权矩阵分解，背后的原理：
 - 在相邻POIs中用户行为相似（本地级别）
@@ -41,6 +42,7 @@ $$
 $$
 \hat{C}_{i j}=\alpha \mathbf{u}_{i} \mathbf{l}_{j}^{\top}+(1-\alpha) \frac{1}{Z\left(l_{j}\right)} \sum_{l_{l_{k} \in \mathcal{N}\left(l_{i}\right)}} \operatorname{Sim}\left(l_{j}, l_{k}\right) \mathbf{u}_{i} \mathbf{l}_{k}^{\top}
 $$
+
 3. GeoMF
 基于加权矩阵分解,GeoMF通过对用户活动区域的建模和对地理空间的影响传播来整合地理影响。
 
