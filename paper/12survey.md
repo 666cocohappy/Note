@@ -70,7 +70,12 @@ ASMF是一个两步POI推荐框架
 $$
 \hat{C}_{i j}=\mid\left(Q_{i c_{j}}+\epsilon\right) \mathbf{u}_{i} \mathbf{l}_{j}^{\top}
 $$
+(3）地理影响：将距离加入到目标函数计算中
 
-(3）地理影响： 
+$$
+\hat{C}_{i j} \propto p_{i j}^{G} \times \hat{C}_{i j}
+$$
+
+
 
 [返回首页](https://666cocohappy.github.io/note/)
